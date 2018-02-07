@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="f3fdbc42-29b0-4816-9e8a-06caf569135a" Publisher="CN=Youngms" Version="1.0.0.0" />
+  <Identity Name="11763iNgenSoftware.DematicOMCDemo" Publisher="CN=75FBC798-AD32-432A-85C0-B24B705075F0" Version="1.1.1.0" />
   <mp:PhoneIdentity PhoneProductId="f3fdbc42-29b0-4816-9e8a-06caf569135a" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>Pulse - Dematic Warehouse Operations Management Center</DisplayName>
-    <PublisherDisplayName>Matthew Young</PublisherDisplayName>
+    <DisplayName>Dematic OMC Demo</DisplayName>
+    <PublisherDisplayName>iNgen Software</PublisherDisplayName>
     <Logo>Assets\skynet50.png</Logo>
   </Properties>
   <Dependencies>
@@ -17,7 +17,6 @@
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="OCMConcept1.App">
       <uap:ApplicationContentUriRules>
         <uap:Rule Match="http://demo-analytics.ops.cld/" Type="include" WindowsRuntimeAccess="all" />
-        <uap:Rule Match="http://us3grrptablqa*.com/" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements DisplayName="Dematic Skynet" Square150x150Logo="Assets\skynet_tile.png" Square44x44Logo="Assets\skynet88.png" Description="Sample" BackgroundColor="black">
         <uap:DefaultTile ShortName="Dematic Skynet">
